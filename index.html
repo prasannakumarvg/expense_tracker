@@ -4,8 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="body.css">
 </head>
 <body>
-    <p>Hi</p>
+    <form id="form">
+        <label id="head">Add Expenses</label>
+        <div class="formLine">
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder="Enter your username" required >
+        </div>
+        <div class="formLine">
+            <label for="description">Description</label>
+            <input type="textarea" id="description" placeholder="Enter a description" required >
+        </div>
+        <div class="formLine">
+            <label for="date">Date</label>
+            <input type="date" id="date" placeholder="s" required >
+        </div>
+        <div class="formLine">
+            <label for="amount">Amount </label>
+            <input type="number" id="amount" placeholder="Enter the amount" required >
+        </div>
+        <button type="track">Track</button>
+    </form>
+
 </body>
 </html>
